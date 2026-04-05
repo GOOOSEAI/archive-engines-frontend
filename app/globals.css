@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Shippori+Mincho:wght@400;500;600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { box-sizing: border-box; }
+
+body {
+  font-family: 'DM Mono', monospace;
+  background: #f7f6f2;
+  color: #0e0e0e;
+  margin: 0;
+}
+
+::selection {
+  background: #0e0e0e;
+  color: #f7f6f2;
+}
+
+input, button, select {
+  font-family: 'DM Mono', monospace;
+}
